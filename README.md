@@ -24,5 +24,29 @@ Clone the repository:
 
 2. The script may take some time to complete depending on the number of job openings and pages to scrape.
 
-## Contributions
+
+# Project - 2
+# Twitter Web Scraping Project
+
+This project focuses on scraping tweets from Twitter by scrolling till the end of the page using Selenium and Beautiful Soup.
+
+## Project Overview
+
+The goal of this project is to extract tweets from Twitter by simulating scrolling till the end of the page. Twitter's HTML structure dynamically loads new tweets as the user scrolls down. To overcome this, we utilize Selenium, a browser automation tool, to automate the scrolling process and obtain all the tweets. Beautiful Soup, a Python library, is used for parsing and extracting the desired information from the HTML.
+
+## Prerequisites
+
+To run this project, you need to have the following installed:
+
+1. Python
+2. Selenium
+3. ChromeDriver
+
+Note: Make sure to download the appropriate version of ChromeDriver that matches your Chrome browser version. ChromeDriver acts as a bridge between Selenium and the Chrome browser.
+
+## Usage
+
+The script will automate the scrolling process until all tweets are loaded. The extracted tweets will be stored in an excel or processed further according to your implementation.
+
+# Contributions
 Contributions are welcome! If you find any issues or want to enhance the functionality, feel free to open a pull request.
